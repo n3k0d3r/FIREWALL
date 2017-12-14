@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{65FBCFAC-FEE4-436D-8C01-8929BA45EF3C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FIREWALL</RootNamespace>
+    <AssemblyName>FIREWALL</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Animation.cs" />
+    <Compile Include="Ball.cs" />
+    <Compile Include="Brick.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Paddle.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Text.cs" />
+    <Compile Include="Vector2Int.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\assets\blue.png" />
+    <Content Include="Content\assets\circle.png" />
+    <Content Include="Content\assets\cursor.png" />
+    <Content Include="Content\assets\fail.png" />
+    <Content Include="Content\assets\grid.png" />
+    <Content Include="Content\assets\introbg.png" />
+    <Content Include="Content\assets\menubg.png" />
+    <Content Include="Content\assets\pixel.png" />
+    <Content Include="Content\assets\red.png" />
+    <Content Include="Content\assets\tax.png" />
+    <Content Include="Content\audio\allcodes.mp3" />
+    <Content Include="Content\audio\cyberdyne.mp3" />
+    <Content Include="Content\audio\desertsuite.mp3" />
+    <Content Include="Content\audio\failcode.mp3" />
+    <Content Include="Content\audio\gunshop.mp3" />
+    <Content Include="Content\audio\helicopter.mp3" />
+    <Content Include="Content\audio\message.mp3" />
+    <Content Include="Content\audio\sarahsdream.mp3" />
+    <Content Include="Content\audio\steelmill.mp3" />
+    <Content Include="Content\audio\trustme.mp3" />
+    <Content Include="Content\audio\uvb.mp3" />
+    <Content Include="Content\codebg\0.png" />
+    <Content Include="Content\codebg\1.png" />
+    <Content Include="Content\codebg\10.png" />
+    <Content Include="Content\codebg\11.png" />
+    <Content Include="Content\codebg\12.png" />
+    <Content Include="Content\codebg\13.png" />
+    <Content Include="Content\codebg\14.png" />
+    <Content Include="Content\codebg\15.png" />
+    <Content Include="Content\codebg\16.png" />
+    <Content Include="Content\codebg\17.png" />
+    <Content Include="Content\codebg\18.png" />
+    <Content Include="Content\codebg\19.png" />
+    <Content Include="Content\codebg\2.png" />
+    <Content Include="Content\codebg\20.png" />
+    <Content Include="Content\codebg\21.png" />
+    <Content Include="Content\codebg\22.png" />
+    <Content Include="Content\codebg\23.png" />
+    <Content Include="Content\codebg\24.png" />
+    <Content Include="Content\codebg\25.png" />
+    <Content Include="Content\codebg\26.png" />
+    <Content Include="Content\codebg\27.png" />
+    <Content Include="Content\codebg\28.png" />
+    <Content Include="Content\codebg\29.png" />
+    <Content Include="Content\codebg\3.png" />
+    <Content Include="Content\codebg\30.png" />
+    <Content Include="Content\codebg\31.png" />
+    <Content Include="Content\codebg\32.png" />
+    <Content Include="Content\codebg\33.png" />
+    <Content Include="Content\codebg\34.png" />
+    <Content Include="Content\codebg\35.png" />
+    <Content Include="Content\codebg\36.png" />
+    <Content Include="Content\codebg\37.png" />
+    <Content Include="Content\codebg\38.png" />
+    <Content Include="Content\codebg\39.png" />
+    <Content Include="Content\codebg\4.png" />
+    <Content Include="Content\codebg\40.png" />
+    <Content Include="Content\codebg\41.png" />
+    <Content Include="Content\codebg\42.png" />
+    <Content Include="Content\codebg\43.png" />
+    <Content Include="Content\codebg\5.png" />
+    <Content Include="Content\codebg\6.png" />
+    <Content Include="Content\codebg\7.png" />
+    <Content Include="Content\codebg\8.png" />
+    <Content Include="Content\codebg\9.png" />
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.manifest" />
+    <None Include="Content\fonts\AlienEncounters.spritefont" />
+    <None Include="Content\fonts\Terminator.spritefont" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

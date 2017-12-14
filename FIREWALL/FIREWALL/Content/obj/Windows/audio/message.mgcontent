@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/darkl/Documents/Visual Studio 2017/Projects/FIREWALL/FIREWALL/Content/audio/message.mp3</SourceFile>
+  <SourceTime>2017-12-13T03:45:55-05:00</SourceTime>
+  <DestFile>C:/Users/darkl/Documents/Visual Studio 2017/Projects/FIREWALL/FIREWALL/Content/bin/Windows/audio/message.xnb</DestFile>
+  <DestTime>2017-12-13T05:45:12.2536133-05:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2017-03-01T10:05:36-05:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2017-03-01T10:05:36-05:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/darkl/Documents/Visual Studio 2017/Projects/FIREWALL/FIREWALL/Content/bin/Windows/audio/message.wma</string>
+  </BuildOutput>
+</PipelineBuildEvent>
